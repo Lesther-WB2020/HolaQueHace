@@ -1,0 +1,133 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 19, 2021, 7:29:53 PM
+    Author     : Xitumul Manuel
+*/
+
+body{
+    margin: 0em;  
+    font-family: 'Roboto', sans-serif;  
+}
+
+/* APLICANDO LA MISMA CARACTERISTICA A LOS H1 ... Hn-1, Hn */
+h1,h2,h3,h4,h5{
+    font-family: 'Bebas Neue', cursive;
+}
+
+/* CONTENEDOR DE MI NOMBRE, DESCRIPCION Y LA IMAGEN.*/
+.cover{
+    height: 425px;
+    background-image: url('../img/home.jpg');
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(11,44,85, 0.45);
+    background-blend-mode: darken;
+    color: #D3CECE;
+}
+
+/* ANCHO CON RESCPTO A .cover
+    EN ESTE CONTENEDOR ESTA LA BREVE DESCRIPCION DEL HEADER
+*/
+.hijoCover{
+    width: 60%;
+    text-align: center;
+}
+
+/* LA FOTO DEL HEADER*/
+#myPhoto{
+    background-image: url('../img/myPhoto.png');
+    width: 10%;
+    height: 35%;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 15%;
+    background-size: 100% auto;
+}
+
+/* CADA SECTION TIENE UN TITLE, CUYO CSS ES ESTE:*/
+.titleSection{
+    text-align: center;
+    margin-top: 35px;
+    background-color: cadetblue;
+}
+
+/* CSS PARA LAS IMAGENES DE CADA TARJETITA*/
+.cover-small{
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+
+/* CSS DE CADA TARJETITA DE DATOS*/
+.card{
+    border: 0 !important;
+    box-shadow: 0 4px 6px -1px rgba(0,0,0, 0.1), 0 2px 4px -1px rgba(0,0,0, 0.06);
+}
+
+/*PARA LOS TITULOS DE LAS TARJETAS*/
+.card-title{
+    min-height: 2.5rem;
+    text-align: center;
+}
+
+.card-title-despedida{
+    min-height: 2.5rem;
+    text-align: center;
+    margin-top: -60px;
+    color: darkslategrey;
+}
+
+/* PARA EL TEXTO DE LAS TARJETAS*/
+.card-text{
+    min-height: 10rem;
+    text-align: center;
+}
+
+/* SETEANDO IMAGENES*/
+/* SECTION: PASATIEMPOS*/
+#distraccionUno{
+    background-image: url('../img/distracciones/escucharMusica.jpg');
+}
+#distraccionDos{
+    background-image: url('../img/distracciones/verSeries.jpg');
+}
+#distraccionTres{
+    background-image: url('../img/distracciones/jugarCoc.jpg');
+}
+
+/*SECCION PERSONAS QUE ADMIRO*/
+#personaUno{
+    background-image: url('../img/personasQueAdmiro/ElonMusk.jpg');
+}
+#personaDos{
+    background-image: url('../img/personasQueAdmiro/freddyVega.jpg');
+}
+#personaTres{
+    background-image: url('../img/personasQueAdmiro/NayibBukele.jpg');
+}
+
+/* SETEANDO LUGARES QUE ME GUSTARÍA VISITAR*/
+#lugarUno{
+    background-image: url('../img/lugares/sanFancisco.jpg');    
+}
+#lugarDos{
+    background-image: url('../img/lugares/tokio.jpg');    
+}
+#lugarTres{
+    background-image: url('../img/lugares/espania.jpg');    
+}
+
+/* SETEANDO COMIDAS FAVORITAS*/
+#comidaUno{
+    background-image: url('../img/comidas/fideosConAtun.jpg');    
+}
+#comidaDos{
+    background-image: url('../img/comidas/salpicon.jpg');    
+}
+#comidaTres{
+    background-image: url('../img/comidas/chaomein.jpg');    
+}
